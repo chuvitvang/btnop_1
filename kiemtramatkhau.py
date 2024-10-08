@@ -1,3 +1,6 @@
+def tieude():
+    print("Chương trình ứng dụng của nhóm 7 - DH23HM")
+
 i = 0 #khời tạo biến đếm
 while True: #tạo vòng lặp vô hạn
     mk_nhap = input("Nhập mật khẩu: ") #gán input cho mk_nhap
@@ -11,6 +14,8 @@ while True: #tạo vòng lặp vô hạn
             print(sai,"vui lòng nhập lại")
         else:
             print(sai,"đột ngột vi phạm, thoát chương trình")
+            tieude()
             exit() #thoát chương trình
             
 print("tiếp tục code")
+tieude()
