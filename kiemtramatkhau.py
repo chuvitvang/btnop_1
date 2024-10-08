@@ -7,10 +7,10 @@ while True:
     else:
         i += 1
         sai = f"còn {3-i} lần nhập,"
-        if i == 3:
+        if i < 3:
+            print(sai,"vui lòng nhập lại")
+        else:
             print(sai,"đột ngột vi phạm, thoát chương trình")
             exit()
-        else:
-            print(sai,"vui lòng nhập lại")
-
+            
 print("tiếp tục code")
