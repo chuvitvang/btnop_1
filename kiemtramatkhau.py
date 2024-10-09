@@ -3,8 +3,8 @@ def tieude(): #hàm tiêu đề , in ra tiêu tề khi gọi
 
 i = 0 #khời tạo biến đếm
 while True: #tạo vòng lặp vô hạn
-    mk_nhap = input("Nhập mật khẩu: ") #gán input cho mk_nhap
-    if mk_nhap == "1234": #kiểm tra mk_nhap
+    mk_nhap = input("Nhập mật khẩu: ") #gán input cho mk_nha
+    if mk_nhap == "1234": #kiểm tra mk_nhap , dạng num,text,spec nên dùng chuỗi
         print(f"đăng nhập thành công, mật khẩu là {mk_nhap}") #nếu mk đúng thì thoát vòng lặp in ra mk_nhap
         break #thoát vòng lặp
     else:
