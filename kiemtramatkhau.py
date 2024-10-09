@@ -1,4 +1,4 @@
-def tieude(): #hàm tiêu đề 
+def tieude(): #hàm tiêu đề , in ra tiêu tề khi gọi
     print("Chương trình ứng dụng của nhóm 7 - DH23HM")
 
 i = 0 #khời tạo biến đếm
