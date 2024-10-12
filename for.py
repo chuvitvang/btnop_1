@@ -1,5 +1,4 @@
 tieude ="Chương trình ứng dụng của nhóm 7 - DH23HM"
-
 for i in range(3):
     mk_nhap = input("Nhập mật khẩu: ")
     if  i < 2 and mk_nhap != "1234":
